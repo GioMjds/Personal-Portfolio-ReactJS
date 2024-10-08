@@ -11,9 +11,6 @@ const HeaderSocials = () => {
         <a href="github.com/GioMjds" className="home__social-link" target='_blank'>
             <i className="fa-brands fa-github"></i>
         </a>
-        <a href="" className="home__social-link" target='_blank'>
-            <i className="fa-brands fa-twitter"></i>
-        </a>
         <a href="instagram.com/giomjds/" className="home__social-link" target='_blank'>
             <i className="fa-brands fa-instagram"></i>
         </a>

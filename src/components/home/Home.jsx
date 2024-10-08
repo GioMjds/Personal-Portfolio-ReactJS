@@ -2,6 +2,7 @@ import "./home.css";
 import Me from "../../assets/mimic4.jpg";
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
+import Shapes from "./Shapes";
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
 
             <ScrollDown />
         </div>
+
+        <Shapes/>
     </section>
   )
 }
