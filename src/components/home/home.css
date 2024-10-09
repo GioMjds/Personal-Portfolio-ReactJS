@@ -12,7 +12,6 @@
 }
 
 .home__img {
-    border: none;
     width: 108px;
     height: auto;
     border-radius: 50%;
@@ -28,13 +27,13 @@
 
 .home__socials {
     display: flex;
-    column-gap: 1.75rem;
+    column-gap: 3rem;
     margin: 1.5rem 0;
 }
 
 .home__social-link {
     color: var(--title-color);
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     transition: .3s;
 }
 
@@ -66,7 +65,7 @@
 
 @keyframes ani-mouse {
     0% {
-        top: 25%;
+        top: 29%;
     }
     15% {
         top: 50%;
