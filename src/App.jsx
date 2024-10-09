@@ -13,7 +13,7 @@ import AOS from "aos";
 
 function App() {
   AOS.init({
-    duration: 800,
+    duration: 600,
     delay: 300,
   });
   return (
