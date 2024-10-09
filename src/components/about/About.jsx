@@ -1,5 +1,6 @@
 import Me from "../../assets/mimic4.jpg";
 import "./about.css";
+import AboutBox from "./AboutBox";
 
 const About = () => {
   return (
@@ -54,6 +55,8 @@ const About = () => {
 
         </div>
       </div>
+
+      <AboutBox/>
     </section>
   )
 }
