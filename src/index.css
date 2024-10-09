@@ -127,11 +127,11 @@ img {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: var(--body-color);
+    color: var(--title-color);
     font-size: 24px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    color: var(--first-color);
+    transition: all 0.3s;
 }
 
 .btn:after, .btn:before {
@@ -140,7 +140,7 @@ img {
     height: 10px;
     position: absolute;
     border: 0px solid #fff;
-    transition: all 0.6s;
+    transition: all 0.7s;
 }
 
 .btn:after {
@@ -160,6 +160,7 @@ img {
 .btn:hover {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    color: hsl(43, 100%, 68%)
 }
 
 .btn:hover:before, .btn:hover:after {
