@@ -34,7 +34,7 @@
 .home__social-link {
     color: var(--title-color);
     font-size: 1.8rem;
-    transition: .3s;
+    transition: 0.3s ease;
 }
 
 .home__social-link:hover {
