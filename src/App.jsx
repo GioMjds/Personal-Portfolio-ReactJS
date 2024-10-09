@@ -11,7 +11,6 @@ import Testimonials from "./components/testimonials/Testimonials"
 import './App.css'
 
 function App() {
-
   return (
     <>
       <Sidebar />
