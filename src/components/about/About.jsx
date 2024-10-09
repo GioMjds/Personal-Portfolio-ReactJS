@@ -1,6 +1,5 @@
-import React from 'react'
-import "./about.css";
 import Me from "../../assets/mimic4.jpg";
+import "./about.css";
 
 const About = () => {
   return (
