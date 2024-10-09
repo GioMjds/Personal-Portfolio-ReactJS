@@ -8,9 +8,14 @@ import Resume from "./components/resume/Resume"
 import Services from "./components/services/Services"
 import Sidebar from "./components/sidebar/Sidebar"
 import Testimonials from "./components/testimonials/Testimonials"
-import './App.css'
+import './App.css';
+import AOS from "aos";
 
 function App() {
+  AOS.init({
+    duration: 800,
+    delay: 300,
+  });
   return (
     <>
       <Sidebar />
