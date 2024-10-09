@@ -13,7 +13,7 @@ const About = () => {
         <div className="about__data grid">
 
           <div className="about__info">
-            <p className="about__description">Hello! I&apos;m Gio Majadas, an IT student particularly interested in making innovations and pontifications about technology. I have a passion for coding and problem solving. Also have an strong background</p>
+            <p className="about__description">Hello! I&apos;m Gio Majadas. A 2nd Year Computer Science Student excelling mostly in Software Development and Web Development. I love learning most of the techy stuff I needed or wanted to upskill in the career path that I want to achieve. My IT career path is focused on Web Development to become a Software Engineer.</p>
             <a href="" className="btn">Download CV</a>
           </div>
 
@@ -21,7 +21,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Front-End Development</h3>
-                <span className="skills__number">72%</span>
+                <span className="skills__number">62%</span>
               </div>
 
               <div className="skills__bar">
@@ -31,8 +31,8 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Database Management</h3>
-                <span className="skills__number">68%</span>
+                <h3 className="skills__name">UI/UX Design</h3>
+                <span className="skills__number">58%</span>
               </div>
 
               <div className="skills__bar">
@@ -42,15 +42,48 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Server-side Development</h3>
-                <span className="skills__number">54%</span>
+                <h3 className="skills__name">Database</h3>
+                <span className="skills__number">53%</span>
               </div>
 
               <div className="skills__bar">
                 <span className="skills__percentage skill-3"></span>
               </div>
             </div>
-            
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Back-End Development</h3>
+                <span className="skills__number">41%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage skill-4"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Full-Stack Development</h3>
+                <span className="skills__number">32%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage skill-5"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Mobile Development</h3>
+                <span className="skills__number">27%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage skill-6"></span>
+              </div>
+            </div>
+
           </div>
 
         </div>
