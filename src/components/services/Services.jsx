@@ -3,7 +3,9 @@ import "./services.css";
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <section className="services container section" id="#services">
+      <h2 className="section__title" data-aos="fade-right">Services</h2>
+    </section>
   )
 }
 

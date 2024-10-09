@@ -3,7 +3,9 @@ import "./portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <section className="portfolio container section" id='#portfolio'>
+      <h2 className="section__title" data-aos="fade-right">Portfolio</h2>
+    </section>
   )
 }
 

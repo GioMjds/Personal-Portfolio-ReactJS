@@ -3,7 +3,9 @@ import "./resume.css";
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <section className="resume container section" id="#resume">
+      <h2 className="section__title" data-aos="fade-right">Resume</h2>
+    </section>
   )
 }
 
