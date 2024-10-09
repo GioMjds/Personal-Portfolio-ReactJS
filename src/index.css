@@ -123,26 +123,46 @@ img {
 }
 
 .btn {
-    padding: 0.75rem 2rem;
-    line-height: 1;
-    border-radius: 1.875rem;
-    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
-    border: 1px solid transparent;
-    color: #fff;
+    cursor: pointer;
+    position: relative;
     display: inline-block;
-    background-color: var(--first-color);
-    font-weight: var(--font-bold);
+    padding: 10px 20px;
+    color: var(--body-color);
+    font-size: 24px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: var(--first-color);
 }
 
-@keyframes button-push {
-    50% {
-        transform: scale(0.8);
-    }
-    100% {
-        transform: scale(1);
-    }
+.btn:after, .btn:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 0px solid #fff;
+    transition: all 0.6s;
+}
+
+.btn:after {
+    top: -1px;
+    left: -1px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.btn:before {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
 }
 
 .btn:hover {
-    animation: button-push 0.3s linear 1;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn:hover:before, .btn:hover:after {
+    width: 105%;
+    height: 115%;
 }
