@@ -14,7 +14,7 @@ const HeaderSocials = () => {
             href="linkedin.com/in/giomjds/"
             className="home__social-link"
             target='_blank'
-            data-aos="fade-right"
+            data-aos="zoom-out"
         >
             <i className="fa-brands fa-linkedin"></i>
         </a>
@@ -22,7 +22,7 @@ const HeaderSocials = () => {
             href="github.com/GioMjds"
             className="home__social-link"
             target='_blank'
-            data-aos="fade-left"
+            data-aos="zoom-out"
         >
             <i className="fa-brands fa-github"></i>
         </a>
