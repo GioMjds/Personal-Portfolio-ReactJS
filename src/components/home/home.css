@@ -9,6 +9,7 @@
 .intro {
     max-width: 540px;
     text-align: center;
+    z-index: 1;
 }
 
 .home__img {
@@ -96,7 +97,6 @@
     top: 0;
     height: 100%;
     width: 100%;
-    z-index: -1;
 }
 
 .shape {
