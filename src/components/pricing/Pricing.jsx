@@ -27,7 +27,7 @@ const Pricing = () => {
           <p className="pricing__title">Unlimited product including app integration and more features</p>
           <p className="pricing__support">Mon - Fri Support</p>
           <h3 className="price">
-            <em>$</em> 15 <span>Month</span>
+            <em>$</em> 45 <span>Month</span>
           </h3>
           <a href="" className="btn">Get Started</a>
         </div>
@@ -38,7 +38,7 @@ const Pricing = () => {
           <p className="pricing__title">A wise option for large companies and individuals</p>
           <p className="pricing__support">24/7 Support</p>
           <h3 className="price">
-            <em>$</em> 19 <span>Month</span>
+            <em>$</em> 99 <span>Month</span>
           </h3>
           <a href="" className="btn">Get Started</a>
         </div>
