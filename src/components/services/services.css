@@ -30,7 +30,9 @@
     box-shadow: 0 5px 20px 0 rgb(249, 123, 139 / 50%);
 }
 
-.services__img {
+.services__container .services__card i {
+    font-size: 2rem;
+    color: #141313;
     margin-bottom: 1.25rem;
 }
 
