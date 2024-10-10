@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "cors": "^2.8.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "swiper": "^11.1.14"
@@ -24,7 +25,9 @@
     "eslint-plugin-react": "^7.37.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.12",
+    "express": "^4.21.1",
     "globals": "^15.9.0",
+    "nodemailer": "^6.9.15",
     "vite": "^5.4.8"
   }
 }
