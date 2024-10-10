@@ -127,7 +127,7 @@ img {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: var(--title-color);
+    color: var(--first-color);
     font-size: 24px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
