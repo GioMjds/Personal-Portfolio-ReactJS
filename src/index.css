@@ -167,3 +167,12 @@ img {
     width: 105%;
     height: 115%;
 }
+
+@media screen and (max-width: 1024px) {
+    .section__title {
+        position: relative;
+        display: flex;
+        left: 1.875rem;
+        margin-bottom: 2rem;
+    }
+}
