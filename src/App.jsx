@@ -5,10 +5,10 @@ import Portfolio from "./components/portfolio/Portfolio"
 import Resume from "./components/resume/Resume"
 import Services from "./components/services/Services"
 import Sidebar from "./components/sidebar/Sidebar"
-import './App.css';
 import AOS from "aos";
+import './App.css';
 
-function App() {
+const App = () => {
   AOS.init({
     duration: 600,
     delay: 300,
