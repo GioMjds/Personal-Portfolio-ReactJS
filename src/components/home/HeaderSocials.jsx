@@ -3,7 +3,7 @@ const HeaderSocials = () => {
   return (
     <div className="home__socials">
         <a
-            href="facebook.com/Mimic.IGN"
+            href="https://www.facebook.com/Mimic.IGN"
             className="home__social-link"
             target='_blank'
             data-aos="fade-right"
@@ -11,7 +11,7 @@ const HeaderSocials = () => {
             <i className="fa-brands fa-facebook"></i>
         </a>
         <a
-            href="linkedin.com/in/giomjds/"
+            href="https://www.linkedin.com/in/giomjds/"
             className="home__social-link"
             target='_blank'
             data-aos="zoom-out"
@@ -19,7 +19,7 @@ const HeaderSocials = () => {
             <i className="fa-brands fa-linkedin"></i>
         </a>
         <a
-            href="github.com/GioMjds"
+            href="https://www.github.com/GioMjds"
             className="home__social-link"
             target='_blank'
             data-aos="zoom-out"
@@ -27,7 +27,7 @@ const HeaderSocials = () => {
             <i className="fa-brands fa-github"></i>
         </a>
         <a
-            href="instagram.com/giomjds/"
+            href="https://www.instagram.com/giomjds/"
             className="home__social-link"
             target='_blank'
             data-aos="fade-left"
