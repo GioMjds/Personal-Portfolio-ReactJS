@@ -14,7 +14,7 @@ const About = () => {
 
           <div className="about__info">
             <p className="about__description">Hello! I&apos;m Gio Majadas. A 2nd Year Computer Science Student excelling mostly in Software Development and Web Development. I love learning most of the techy stuff I needed or wanted to upskill in the career path that I want to achieve. My IT career path is focused on Web Development to become a Software Engineer.</p>
-            <a href="" className="btn">Download CV</a>
+            <a href="src\assets\Gio Majadas (Resume).pdf" className="btn" target="_blank" download={true}>Download CV</a>
           </div>
 
           <div className="about__skills grid">
