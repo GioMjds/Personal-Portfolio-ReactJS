@@ -44,7 +44,10 @@ const About = () => {
       </div>
 
       <AboutBox/>
-      <TechStacks/>
+      <section className="about container section">
+        <h2 className="section__title" data-aos="fade-right">Tech Stacks</h2>
+        <TechStacks/>
+      </section>
     </section>
   )
 }
