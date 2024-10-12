@@ -1,8 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./sidebar.css";
 
 const Sidebar = () => {
     const [toggle, showMenu] = useState(false);
+
+    useEffect(() => {
+        document.body.classList.toggle('blur-background', toggle);
+    }, [toggle]);
+    
   return (
     <>
         <aside className={toggle ? "aside show-menu" : "aside"}>

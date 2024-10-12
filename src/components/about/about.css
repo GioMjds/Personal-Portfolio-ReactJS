@@ -123,7 +123,7 @@
 }
 
 .tech-stack__bar {
-    height: 10px;
+    height: 15px;
     overflow: hidden;
     background-color: #f1f1f1;
     border-radius: var(--border-radius);
@@ -154,9 +154,14 @@
         justify-content: center;
     }
 
+    .about__boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .about__box {
         flex-direction: column;
         row-gap: .5rem;
+        margin-top: 1.125rem;
         text-align: center;
     }
 }
@@ -165,6 +170,7 @@
     .about__container {
         grid-template-columns: 350px;
     }
+
     .about__data::before {
         left: 47%;
     }
@@ -180,6 +186,7 @@
         justify-content: center;
     }
 }
+
 @media screen and (max-width: 576px) {
     .about__container {
         grid-template-columns: 320px;
