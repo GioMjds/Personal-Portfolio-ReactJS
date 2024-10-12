@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
+api/
 .vercel
-src/api/
+.env.local

@@ -40,11 +40,11 @@
     z-index: 1;
 }
 
-.contact__form-input textarea {
+.contact__form-div textarea {
     height: 10.25rem;
 }
 
-.contact__form button {
+.contact__form .btn {
     cursor: pointer;
     position: relative;
     display: inline-block;
@@ -55,6 +55,7 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     transition: all 0.3s;
+    margin-top: 6.875rem;
 }
 
 @media screen and (max-width: 1024px) {
