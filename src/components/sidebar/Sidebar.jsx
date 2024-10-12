@@ -26,7 +26,7 @@ const Sidebar = () => {
     <>
         <aside className={toggle ? "aside show-menu" : "aside"}>
             <a href="#home" className="nav__logo" onClick={handleNav}>
-                <span className='logo-name'>G</span>
+                <h1 className='logo-name'>G</h1>
             </a>
 
             <nav className="nav">
@@ -67,7 +67,7 @@ const Sidebar = () => {
             </nav>
 
             <div className="nav__footer">
-                <span className="copyright">&copy; @giomjds | 2024</span>
+                <h1 className="copyright">&copy; giomjds | 2024</h1>
             </div>
         </aside>
 
