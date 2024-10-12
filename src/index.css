@@ -30,11 +30,21 @@
 /* Dark Mode Toggle */
 body.dark-mode {
     --first-color: hsl(353, 100%, 65%);
-    --title-color: hsl(226, 70%, 88%);
-    --text-color: hsl(225, 20%, 61%);
-    --body-color: hsl(216, 65%, 11%);
-    --container-color: #112240;
+    --title-color: hsl(224, 15%, 86%);
+    --text-color: hsl(180, 1%, 77%);
+    --body-color: hsl(217, 67%, 13%);
+    --container-color: hsl(218, 38%, 19%);
     --shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Other Class in Other Components affected in Dark Mode */
+.copyright {
+    color: var(--text-color);
+}
+
+.mouse__wrapper {
+    color: var(--text-color);
 }
 
 /* Responsive Typography */
@@ -156,15 +166,15 @@ img {
 .btn:after {
     top: -1px;
     left: -1px;
-    border-top: 5px solid black;
-    border-left: 5px solid black;
+    border-top: 5px solid var(--title-color);
+    border-left: 5px solid var(--title-color);
 }
 
 .btn:before {
     bottom: -1px;
     right: -1px;
-    border-bottom: 5px solid black;
-    border-right: 5px solid black;
+    border-bottom: 5px solid var(--title-color);
+    border-right: 5px solid var(--title-color);
 }
 
 .btn:hover {

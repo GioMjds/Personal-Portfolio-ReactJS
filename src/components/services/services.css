@@ -46,14 +46,6 @@
     color: #f8f9fa;
 }
 
-.services__card:nth-child(2) .services__title {
-    color: var(--title-color);
-}
-
-.services__card:nth-child(2) .services__description {
-    color: var(--title-color);
-}
-
 @media screen and (max-width: 1024px) {
     .services__container {
         grid-template-columns: 330px;
