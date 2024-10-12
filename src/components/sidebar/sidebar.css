@@ -67,6 +67,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    body.no-scroll {
+        overflow: hidden;
+    }
+
     body.blur-background::after {
         content: '';
         position: fixed;
