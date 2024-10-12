@@ -44,8 +44,8 @@ const Data = [
         category: "experience",
         icon: "icon-briefcase",
         year: "2020 - 2021",
-        title: "IT Support for Local Non-Profit",
-        desc: "Provided technical support to staff and clients, troubleshooting hardware and software issues, and providing advice and guidance. Also assisted in the setup and maintenance of computer systems and networks.",
+        title: "Canteen Cashier",
+        desc: "Serving quality dishes to the employees and customers, checking financial reports about daily sales and compiled financial information and maintaining the cleanliness of the workplace",
     },
 ];
 
