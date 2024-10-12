@@ -1,0 +1,16 @@
+.dark-mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.875rem;
+    color: var(--title-color);
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    transition: color 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+    color: var(--first-color);
+}

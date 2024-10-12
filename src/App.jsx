@@ -5,6 +5,7 @@ import Portfolio from "./components/portfolio/Portfolio"
 import Resume from "./components/resume/Resume"
 import Services from "./components/services/Services"
 import Sidebar from "./components/sidebar/Sidebar"
+import DarkMode from "./components/DarkMode"
 import AOS from "aos";
 import './App.css';
 
@@ -16,6 +17,7 @@ const App = () => {
   return (
     <>
       <Sidebar />
+      <DarkMode />
       <main className="main">
         <Home />
         <About />
