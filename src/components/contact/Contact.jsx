@@ -12,16 +12,26 @@ const Contact = () => {
       email: email.value,
       message: message.value
     }
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8"
-      },
-      body: JSON.stringify(details)
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
+    try {
+      let response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8"
+        },
+        body: JSON.stringify(details)
+      });
+      let result = await response.json();
+      if (response.ok) {
+        setStatus("Submit");
+        alert("Message sent successfully. Thank you for reaching out for inquiry!");
+        e.target.reset();
+      } else {
+        throw new Error(result.message || "Something went wrong");
+      }
+    } catch (e) {
+      setStatus("Submit");
+      alert(`Failed to send message. ${e.message}`)
+    }
   }
   return (
     <section className="contact container section" id='contact'>
