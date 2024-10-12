@@ -1,6 +1,7 @@
 import Me from "../../assets/mimic4.jpg";
 import "./about.css";
 import AboutBox from "./AboutBox";
+import TechStacks from "./TechStacks";
 import { skillsData } from "./Skills";
 
 const About = () => {
@@ -43,6 +44,7 @@ const About = () => {
       </div>
 
       <AboutBox/>
+      <TechStacks/>
     </section>
   )
 }
