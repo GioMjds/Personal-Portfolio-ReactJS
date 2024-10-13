@@ -1,5 +1,5 @@
 .about-container {
-    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 2fr 6fr;
     column-gap: 1.875rem;
 }
 
@@ -13,7 +13,7 @@
     background-color: var(--container-color);
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     column-gap: 1.875rem;
     align-items: flex-start;
     position: relative;
@@ -34,40 +34,6 @@
 .about-description {
     margin-bottom: 1rem;
     text-align: justify;
-}
-
-.about-skills {
-    row-gap: 1.25rem;
-}
-
-.skills-titles {
-    display: flex;
-    justify-content: space-between;
-}
-
-.skills-name {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-}
-
-.skills-number {
-    line-height: 1.2;
-}
-
-.skills-bar,
-.skills-percentage {
-    margin-top: 5px;
-    height: 7px;
-    border-radius: 0.25rem;
-}
-
-.skills-bar {
-    background-color: #f1f1f1;
-}
-
-.skills-percentage {
-    display: block;
-    background-color: var(--first-color);
 }
 
 .about-boxes {
