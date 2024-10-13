@@ -12,7 +12,7 @@
     z-index: 1;
 }
 
-.home__img {
+.home-img {
     width: 108px;
     height: auto;
     border-radius: 50%;
@@ -20,36 +20,36 @@
     margin-bottom: 1.5rem;
 }
 
-.home__name {
+.home-name {
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
     margin-bottom: 0.5rem;
 }
 
-.home__socials {
+.home-socials {
     display: flex;
     column-gap: 3rem;
     margin: 1.5rem 0;
 }
 
-.home__social-link {
+.home-social-link {
     color: var(--title-color);
     font-size: 1.8rem;
     transition: 0.3s ease;
 }
 
-.home__social-link:hover {
+.home-social-link:hover {
     color: hsl(43, 100%, 68%);
 }
 
-.scroll__down {
+.scroll-down {
     position: absolute;
     bottom: 2.5rem;
     left: 0;
     width: 100%;
 }
 
-.home__scroll-name {
+.home-scroll-name {
     font-size: var(--small-font-size);
 }
 

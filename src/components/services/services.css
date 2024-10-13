@@ -1,9 +1,9 @@
-.services__container {
+.services-container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1.875rem;
 }
 
-.services__card {
+.services-card {
     text-align: center;
     padding: 1.875rem;
     border-radius: var(--border-radius);
@@ -11,43 +11,43 @@
     transition: all 0.3s ease-in-out;
 }
 
-.services__card:hover {
+.services-card:hover {
     transform: translateY(-10px);
 }
 
-.services__card:nth-child(1) {
+.services-card:nth-child(1) {
     background-color: rgb(108, 108, 229);
     box-shadow: 0 5px 20px 0 rgb(108, 108, 229 / 50%);
 }
 
-.services__card:nth-child(2) {
+.services-card:nth-child(2) {
     background-color: rgb(249, 215, 76);
     box-shadow: 0 5px 20px 0 rgb(249, 215, 76 / 50%);
 }
 
-.services__card:nth-child(3) {
+.services-card:nth-child(3) {
     background-color: rgb(249, 123, 139);
     box-shadow: 0 5px 20px 0 rgb(249, 123, 139 / 50%);
 }
 
-.services__container .services__card i {
+.services-container .services-card i {
     font-size: 2rem;
     color: #141313;
     margin-bottom: 1.25rem;
 }
 
-.services__title {
+.services-title {
     font-size: var(--h3-font-size);
     margin-bottom: 1rem;
     color: #fff;
 }
 
-.services__description {
+.services-description {
     color: #f8f9fa;
 }
 
 @media screen and (max-width: 1024px) {
-    .services__container {
+    .services-container {
         grid-template-columns: 330px;
         justify-content: center;
         row-gap: 1.875rem;
@@ -55,13 +55,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .services__container {
+    .services-container {
         grid-template-columns: 310px;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .services__container {
+    .services-container {
         grid-template-columns: 1fr;
     }
 }

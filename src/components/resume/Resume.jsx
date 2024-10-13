@@ -5,8 +5,8 @@ import Card from "./Card";
 const Resume = () => {
   return (
     <section className="resume container section" id="resume">
-      <h2 className="section__title" data-aos="fade-right">Resume</h2>
-      <div className="resume__container grid">
+      <h2 className="section-title" data-aos="fade-right">Resume</h2>
+      <div className="resume-container grid">
         <div className="timeline grid">
           {Data.map((val, id) => {
             if (val.category === "education") {

@@ -24,14 +24,14 @@ const data = [
 const Services = () => {
   return (
     <section className="services container section" id="services">
-      <h2 className="section__title" data-aos="fade-right">Services</h2>
-      <div className="services__container grid">
+      <h2 className="section-title" data-aos="fade-right">Services</h2>
+      <div className="services-container grid">
         {data.map(({ id, icon, title, description }) => {
           return (
-            <div className="services__card" key={id}>
+            <div className="services-card" key={id}>
               <i className={icon}></i>
-              <h3 className="services__title">{title}</h3>
-              <p className="services__description">{description}</p>
+              <h3 className="services-title">{title}</h3>
+              <p className="services-description">{description}</p>
             </div>
           );
         })}

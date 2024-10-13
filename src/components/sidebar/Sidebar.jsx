@@ -25,40 +25,40 @@ const Sidebar = () => {
   return (
     <>
         <aside className={toggle ? "aside show-menu" : "aside"}>
-            <a href="#home" className="nav__logo" onClick={handleNav}>
+            <a href="#home" onClick={handleNav}>
                 <h1 className='logo-name'>G</h1>
             </a>
 
             <nav className="nav">
-                <div className="nav__menu">
-                    <ul className="nav__list">
-                        <li className="nav__item">
-                            <a href="#home" className="nav__link" onClick={handleNav}>
+                <div className="nav-menu">
+                    <ul className="nav-list">
+                        <li className="nav-item">
+                            <a href="#home" className="nav-link" onClick={handleNav}>
                                 <i className="icon-home"></i>
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#about" className="nav__link" onClick={handleNav}>
+                        <li className="nav-item">
+                            <a href="#about" className="nav-link" onClick={handleNav}>
                                 <i className="icon-user-following"></i>
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#services" className="nav__link" onClick={handleNav}>
+                        <li className="nav-item">
+                            <a href="#services" className="nav-link" onClick={handleNav}>
                                 <i className="icon-briefcase"></i>
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#resume" className="nav__link" onClick={handleNav}>
+                        <li className="nav-item">
+                            <a href="#resume" className="nav-link" onClick={handleNav}>
                                 <i className="icon-graduation"></i>
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#portfolio" className="nav__link" onClick={handleNav}>
+                        <li className="nav-item">
+                            <a href="#portfolio" className="nav-link" onClick={handleNav}>
                                 <i className="icon-layers"></i>
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#contact" className="nav__link" onClick={handleNav}>
+                        <li className="nav-item">
+                            <a href="#contact" className="nav-link" onClick={handleNav}>
                                 <i className="icon-bubble"></i>
                             </a>
                         </li>
@@ -66,12 +66,12 @@ const Sidebar = () => {
                 </div>
             </nav>
 
-            <div className="nav__footer">
+            <div className="nav-footer">
                 <span className="copyright">&copy; giomjds | 2024</span>
             </div>
         </aside>
 
-        <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => showMenu(!toggle)}>
+        <div className={toggle ? "nav-toggle nav-toggle-open" : "nav-toggle"} onClick={() => showMenu(!toggle)}>
             <i className={toggle ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
         </div>
     </>

@@ -1,36 +1,36 @@
 
 const AboutBox = () => {
   return (
-    <div className="about__boxes grid">
-        <div className="about__box">
-            <i className="about__icon icon-fire"></i>
+    <div className="about-boxes grid">
+        <div className="about-box">
+            <i className="about-icon icon-fire"></i>
             <div>
-                <h3 className="about__title">14</h3>
-                <span className="about__subtitle">Project(s) Completed</span>
+                <h3 className="about-title">14</h3>
+                <span className="about-subtitle">Project(s) Completed</span>
             </div>
         </div>
 
-        <div className="about__box">
-            <i className="about__icon icon-cup"></i>
+        <div className="about-box">
+            <i className="about-icon icon-cup"></i>
             <div>
-                <h3 className="about__title">1,324</h3>
-                <span className="about__subtitle">Cup(s) of Coffee</span>
+                <h3 className="about-title">1,324</h3>
+                <span className="about-subtitle">Cup(s) of Coffee</span>
             </div>
         </div>
 
-        <div className="about__box">
-            <i className="about__icon icon-people"></i>
+        <div className="about-box">
+            <i className="about-icon icon-people"></i>
             <div>
-                <h3 className="about__title">12</h3>
-                <span className="about__subtitle">Satisfied Client(s)</span>
+                <h3 className="about-title">12</h3>
+                <span className="about-subtitle">Satisfied Client(s)</span>
             </div>
         </div>
 
-        <div className="about__box">
-            <i className="about__icon icon-info"></i>
+        <div className="about-box">
+            <i className="about-icon icon-info"></i>
             <div>
-                <h3 className="about__title">BSIT-SD</h3>
-                <span className="about__subtitle">2nd Year</span>
+                <h3 className="about-title">BSIT-SD</h3>
+                <span className="about-subtitle">2nd Year</span>
             </div>
         </div>
 

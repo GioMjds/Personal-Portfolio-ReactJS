@@ -32,22 +32,21 @@ body.dark-mode {
     --first-color: hsl(353, 100%, 65%);
     --title-color: hsl(225, 36%, 96%);
     --text-color: hsl(180, 1%, 77%);
-    --body-color: hsl(217, 67%, 13%);
+    --body-color: hsl(240, 25%, 20%);
     --container-color: hsl(218, 38%, 19%);
     --shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
-
 
 /* Other Class in Other Components affected in Dark Mode */
 .copyright {
     color: var(--text-color);
 }
 
-.mouse__wrapper {
+.home-scroll-name {
     color: var(--text-color);
 }
 
-.contact__form-input::placeholder {
+.contact-form-input::placeholder {
     color: var(--text-color);
 }
 
@@ -128,7 +127,7 @@ img {
     padding-bottom: 2rem;
 }
 
-.section__title {
+.section-title {
     font-size: var(--h1-font-size);
     margin-left: 0.875rem;
     font-weight: var(--font-bold);
@@ -136,7 +135,7 @@ img {
     margin-bottom: 3.75rem;
 }
 
-.section__title::before {
+.section-title::before {
     content: '';
     background: url(./assets/dots-bg.svg);
     height: 2.25rem;
@@ -193,7 +192,7 @@ img {
 }
 
 @media screen and (max-width: 1024px) {
-    .section__title {
+    .section-title {
         position: relative;
         display: flex;
         left: 1.875rem;

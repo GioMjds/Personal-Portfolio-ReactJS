@@ -17,14 +17,14 @@ const TechStacks = () => {
     <div className="tech-stacks grid">
       {techStacks.map((tech, index) => (
         <div className="tech-stack" key={index}>
-          <div className="tech-stack__title">
-            <h3 className="tech-stack__name">{tech.name}</h3>
-            <span className="tech-stack__number">{tech.percentage}%</span>
+          <div className="tech-stack-title">
+            <h3 className="tech-stack-name">{tech.name}</h3>
+            <span className="tech-stack-number">{tech.percentage}%</span>
           </div>
 
-          <div className="tech-stack__bar">
+          <div className="tech-stack-bar">
             <span
-              className="tech-stack__percentage"
+              className="tech-stack-percentage"
               style={{
                 width: `${tech.percentage}%`,
                 backgroundColor: `${tech.color}`
