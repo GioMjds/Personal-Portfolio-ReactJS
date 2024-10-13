@@ -30,7 +30,7 @@
 /* Dark Mode Toggle */
 body.dark-mode {
     --first-color: hsl(353, 100%, 65%);
-    --title-color: hsl(224, 15%, 86%);
+    --title-color: hsl(225, 36%, 96%);
     --text-color: hsl(180, 1%, 77%);
     --body-color: hsl(217, 67%, 13%);
     --container-color: hsl(218, 38%, 19%);
@@ -44,6 +44,10 @@ body.dark-mode {
 }
 
 .mouse__wrapper {
+    color: var(--text-color);
+}
+
+.contact__form-input::placeholder {
     color: var(--text-color);
 }
 
