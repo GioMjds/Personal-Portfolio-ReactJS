@@ -41,7 +41,7 @@
 }
 
 .nav-toggle {
-    position: fixed;
+    position: sticky;
     top: 1.25rem;
     left: 1.875rem;
     cursor: pointer;

@@ -62,6 +62,24 @@ body.dark-mode {
     }
 }
 
+/* Customized Scroll Bars */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--container-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--first-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(43, 100%, 68%);
+}
+
 /* Base */
 * {
     margin: 0;
@@ -192,6 +210,15 @@ img {
 }
 
 @media screen and (max-width: 1024px) {
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--first-color);
+        border-radius: 5px;
+    }
+    
     .section-title {
         position: relative;
         display: flex;
