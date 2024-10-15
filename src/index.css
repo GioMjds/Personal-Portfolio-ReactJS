@@ -201,7 +201,6 @@ img {
 .btn:hover {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    color: hsl(43, 100%, 68%)
 }
 
 .btn:hover:before, .btn:hover:after {
