@@ -8,6 +8,7 @@ import Sidebar from "./components/sidebar/Sidebar"
 import DarkMode from "./components/DarkMode"
 import AOS from "aos";
 import './App.css';
+import { ThemeProvider } from "./context/ThemeContext"
 
 const App = () => {
   AOS.init({
@@ -15,7 +16,7 @@ const App = () => {
     delay: 300,
   });
   return (
-    <>
+    <ThemeProvider>
       <Sidebar />
       <DarkMode />
       <main className="main">
@@ -26,7 +27,7 @@ const App = () => {
         <Portfolio />
         <Contact />
       </main>
-    </>
+    </ThemeProvider>
   )
 }
 

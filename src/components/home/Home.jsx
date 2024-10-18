@@ -3,8 +3,11 @@ import Me from "../../assets/mimic4.jpg";
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import Shapes from "./Shapes";
+import { useContext } from "react";
+import { ThemeContext } from '../../context/ThemeContext';
 
 const Home = () => {
+  const { isDarkMode } = useContext(ThemeContext);
   return (
     <section className="home container" id='home'>
         <div className="intro">
@@ -15,7 +18,7 @@ const Home = () => {
             <a href="#contact" className="btn" data-aos="zoom-out">Hire Me</a>
             <ScrollDown />
         </div>
-        <Shapes/>
+        <Shapes isDarkMode={isDarkMode} />
     </section>
   )
 }
