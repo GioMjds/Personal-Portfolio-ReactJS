@@ -4,20 +4,20 @@ const data = [
   {
     id: 1,
     icon: "fas fa-code",
-    title: "Full-Stack Development",
-    description: "Designing and developing the client-side using React and other libraries and frameworks, while handling the server-side using Python Django. Also integrating with databases and APIs",
+    title: "Front-End Development",
+    description: "I specialize in creating visually appealing user-friendly web applications that focuses on delivering seamless user experience through device responsiveness, accessibility standards and optimized performance.",
   },
   {
     id: 2,
     icon: "fas fa-database",
     title: "Database Management",
-    description: "Designing, implementing, and maintaining databases to store and manage data efficiently while ensuring data security, integrity, and backup and recovery",
+    description: "I focus on designing, implementing and maintaining robust database systems to ensure data integrity and accessibility includes data migration, security management, backup and recovery and database design.",
   },
   {
     id: 3,
-    icon: "fas fa-mobile",
-    title: "Mobile App Developer",
-    description: "Designed and implemented user interfaces and user experience using React Native, while developing and maintaining mobile applications for Android and iOS platforms",
+    icon: "fas fa-paintbrush",
+    title: "UI/UX Design",
+    description: "I'm dedicated to creating intuitive and engaging user experiences that enhance usability and satisfaction that compasses visual and interaction design, usability testing and wireframing and prototyping.",
   },
 ];
 
