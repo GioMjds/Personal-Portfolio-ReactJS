@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./sidebar.css";
 
 const Sidebar = () => {
@@ -9,58 +10,53 @@ const Sidebar = () => {
         document.body.classList.toggle('no-scroll', toggle);
     }, [toggle]);
 
-    const handleNav = (e) => {
-        e.preventDefault();
-        const targetId = e.currentTarget.getAttribute("href").slice(1);
-        const targetElement = document.getElementById(targetId);
-
-        if (targetElement) {
-            showMenu(false);
-            setTimeout(() => {
-                targetElement.scrollIntoView({ behavior: "smooth" });
-            }, 300);
+    const handleNav = (id) => {
+        showMenu(false);
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
         }
     };
 
   return (
     <>
         <aside className={toggle ? "aside show-menu" : "aside"}>
-            <a href="#home" onClick={handleNav}>
+            <NavLink to='/' onClick={() => handleNav('home')} >
                 <h1 className='logo-name'>G</h1>
-            </a>
-
+            </NavLink>
+            
             <nav className="nav">
                 <div className="nav-menu">
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <a href="#home" className="nav-link" onClick={handleNav}>
+                            <NavLink to="/" className="nav-link" onClick={() => handleNav('home')}>
                                 <i className="icon-home"></i>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#about" className="nav-link" onClick={handleNav}>
+                            <NavLink to="/about" className="nav-link" onClick={() => handleNav('about')}>
                                 <i className="icon-user-following"></i>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#services" className="nav-link" onClick={handleNav}>
+                            <NavLink to="/services" className="nav-link" onClick={() => handleNav('services')}>
                                 <i className="icon-briefcase"></i>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#resume" className="nav-link" onClick={handleNav}>
+                            <NavLink to="/resume" className="nav-link" onClick={() => handleNav('resume')}>
                                 <i className="icon-graduation"></i>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#portfolio" className="nav-link" onClick={handleNav}>
+                            <NavLink to="/portfolio" className="nav-link" onClick={() => handleNav('portfolio')}>
                                 <i className="icon-layers"></i>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#contact" className="nav-link" onClick={handleNav}>
+                            <NavLink to="/contact" className="nav-link" onClick={() => handleNav('contact')}>
                                 <i className="icon-bubble"></i>
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

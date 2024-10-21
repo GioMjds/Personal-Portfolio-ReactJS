@@ -8,7 +8,8 @@ import Sidebar from "./components/sidebar/Sidebar"
 import DarkMode from "./components/DarkMode"
 import AOS from "aos";
 import './App.css';
-import { ThemeProvider } from "./context/ThemeContext"
+import { ThemeProvider } from "./context/ThemeContext";
+import { BrowserRouter } from "react-router-dom"
 
 const App = () => {
   AOS.init({
@@ -16,18 +17,20 @@ const App = () => {
     delay: 300,
   });
   return (
-    <ThemeProvider>
-      <Sidebar />
-      <DarkMode />
-      <main className="main">
-        <Home />
-        <About />
-        <Services />
-        <Resume />
-        <Portfolio />
-        <Contact />
-      </main>
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider>
+        <Sidebar />
+        <DarkMode />
+        <main className="main">
+          <Home id="home" />
+          <About id="about" />
+          <Services id="services" />
+          <Resume id="resume" />
+          <Portfolio id="portfolio" />
+          <Contact id="contact" />
+        </main>
+      </ThemeProvider>
+    </BrowserRouter>
   )
 }
 
