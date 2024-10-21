@@ -15,7 +15,7 @@ const About = () => {
         <div className="about-data grid">
 
           <div className="about-info">
-            <p className="about-description">As a student whose having a interest in Web Design, I&apos;m driven to build beautiful and functional websites that captivates users. I&apos;m passionate about creating engaging and intuitive user experiences. I&apos;m also a quick learner and can work well in a team setting, and constantly expanding my knowledge to stay ahead of the curve.</p>
+            <p className="about-description">As a student whose having a interest in Web Design, I&apos;m driven to build beautiful and functional websites that captivates users. I&apos;m passionate about creating, engaging and intuitive user experiences. I&apos;m also a quick learner and can work well in a team setting, and constantly expanding my knowledge to stay ahead of the curve.</p>
             <p className="about-description">Being a student, I&apos;m always seeking new and exciting ways to learn. I&apos;m excited to continue learning and growing as a web developer.</p>
             <a href={Resume} className="btn" target="_blank">Download CV</a>
           </div>
