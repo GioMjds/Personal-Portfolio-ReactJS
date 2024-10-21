@@ -1,6 +1,6 @@
 # About Me
 
-Hello! I'm Gio Majadas. A 2nd Year Computer Science Student excelling mostly in Software Development and Web Development. I love learning most of the techy stuff I needed or wanted to upskill in the career path that I want to achieve. My IT career path is focused on Web Development to become a Software Engineer.
+Hello! I'm Gio Majadas. A 2nd Year Information Technology student specializes in System Development. 
 
 # Technical Skills 
 
@@ -8,12 +8,20 @@ Hello! I'm Gio Majadas. A 2nd Year Computer Science Student excelling mostly in 
     - C++
     - Python
     - JavaScript
-    - MySQL
 
-- Frameworks & Libraries:
-    - Flask
-    - Django
+- Web Development:
+    - HTML
+    - Vanilla CSS
     - React
+
+- Database:
+    - MySQL
+    - PostgreSQL
+
+- Other Skills:
+    - Problem-solving
+    - Object-Oriented Programming (OOP)
+    - UI/UX Design
 
 For inquiries, here's my socials: 👇
 
